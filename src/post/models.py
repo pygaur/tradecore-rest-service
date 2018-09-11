@@ -32,7 +32,7 @@ class Post(models.Model):
         return self.title
 
 
-class PostLike(TimeStamp):
+class PostLike(models.Model):
     """
     store likes submitted by users for any post.
     """
